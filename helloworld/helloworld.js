@@ -41,6 +41,9 @@ const server = http.createServer((request, response) => {
     if(request.url == "/"){
         //execute the statement
         response.writeHead(200 , { "Content-Type" : "Text/Plain"})
+        // response.sent is barely used because you have to end anyway
+        // response.end both sends and ends
+        // response.send("Home Page")
         response.end("Home Page")
     } 
     else if(request.url == "/contact"){
