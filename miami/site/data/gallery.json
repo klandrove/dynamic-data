@@ -1,0 +1,68 @@
+{
+    "images": [
+        {
+            "url": "/images/cap_night.jpg",
+            "title": "Capitol at Night"
+        },
+        {
+            "url": "/images/lincoln.jpg",
+            "title": "Linocoln Memorial"
+        },
+        {
+            "url": "/images/mlk.jpg",
+            "title": "MLK Memorial"
+        },
+        {
+            "url": "/images/pool.jpg",
+            "title": "Reflecting Pool"
+        },
+        {
+            "url": "/images/whitehouse.jpg",
+            "title": "Whitehouse"
+        },
+        {
+            "url": "/images/jeff.jpg",
+            "title": "Jefferson Memorial"
+        },
+        {
+            "url": "/images/arial.jpg",
+            "title": "Washington, D.C."
+        },
+        {
+            "url": "/images/cap_sky.jpg",
+            "title": "Capitol Building"
+        },
+        {
+            "url": "/images/monument_night.jpg",
+            "title": "Washington Monument"
+        },
+        {
+            "url": "/images/statue_cap.jpg",
+            "title": "Art by the Capitol"
+        },
+        {
+            "url": "/images/metro.jpg",
+            "title": "Metro"
+        },
+        {
+            "url": "/images/food_truck.jpg",
+            "title": "Food Trucks"
+        },
+        {
+            "url": "/images/space_museum.jpg",
+            "title": "Smithsonian Museums"
+        },
+        {
+            "url": "/images/camera_lens.jpg",
+            "title": "Photography Workshop"
+        },
+        {
+            "url": "/images/kid_museum.jpg",
+            "title": "Family Events"
+        },
+        {
+            "url": "/images/live_music.jpg",
+            "title": "Live Music"
+        }
+    ]
+}

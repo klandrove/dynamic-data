@@ -1,0 +1,6 @@
+{{!-- This #if is a helper to evaluate if the variable or expression exists --}}
+<h1 class="primary-heading">{{data.title}}</h1>
+{{#if data.slideshow}}
+    {{>slideshow}}
+{{/if}}
+<p class="abstract">{{data.abstract}}</p>

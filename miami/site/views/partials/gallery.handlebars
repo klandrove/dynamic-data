@@ -1,0 +1,33 @@
+{{!-- .row class is from bootstrap's grid --}}
+<div class="row gallery">
+    {{#each gallery.images}}
+    <div class="col-3 galleryItem" onclick="openModal('{{this.url}}','{{this.title}}')">
+        <img class="img-fluid" src="{{this.url}}" alt="{{this.title}}">
+    </div>
+    {{/each}}
+</div>
+
+
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTitle"></h5>
+        <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body d-flex justify-content-center align-items-center">
+        <img id="modalImage" src="" class="img-fluid mx-auto" alt="Enlarged Image">
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Function to open modal and set the clicked image
+function openModal(imageSrc, imageTitle) {
+    document.getElementById('modalImage').src = imageSrc;
+    document.getElementById('modalTitle').innerText = imageTitle;
+    $('#imageModal').modal('show');
+}
+</script>

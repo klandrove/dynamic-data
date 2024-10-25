@@ -1,0 +1,100 @@
+{
+    "title": "Discover Historical Washington, D.C.",
+    "abstract": "Step back in time as you delve into the captivating history of Washington, D.C. From its founding to its pivotal role in shaping the nation, the city is a treasure trove of historical landmarks and stories waiting to be uncovered. Join us on guided tours of iconic sites like the Smithsonian National Museum of American History, the United States Capitol, and the historic neighborhoods that tell the story of our nation's past. Experience firsthand the events that have shaped the course of American history and gain a deeper appreciation for the legacy of this remarkable city.",
+    "image": "/images/washington_dc_history.jpg",
+    "slideshow": [
+        "/images/distant_monument.jpg",
+        "/images/war_statue.jpg",
+        "/images/reflection_monument.jpg"
+    ],
+    "services": [
+        {
+            "title": "Historical Tours",
+            "intro": "Explore the rich history of Washington, D.C. with our expert guides.",
+            "list": [
+                "Capitol Building Tours",
+                "Lincoln Memorial Tours",
+                "Smithsonian History Tours",
+                "Guided Walking Tours"
+            ],
+            "image": "/images/cap.jpg"
+        },
+        {
+            "title": "Cultural Heritage Workshops",
+            "intro": "Participate in workshops that celebrate the city's diverse cultures.",
+            "list": [
+                "Art Workshops",
+                "Culinary Classes",
+                "Music and Dance Classes",
+                "Historical Reenactments"
+            ],
+            "image": "/images/rev_close.jpg"
+        },
+        {
+            "title": "Museum Visits",
+            "intro": "Experience the city's incredible museums dedicated to history.",
+            "list": [
+                "National Museum of American History",
+                "National Archives",
+                "African American History Museum",
+                "National Postal Museum"
+            ],
+            "image": "/images/postal.jpg"
+        },
+        {
+            "title": "Heritage Site Tours",
+            "intro": "Visit significant sites that shaped American history.",
+            "list": [
+                "Ford's Theatre",
+                "Tudor Place",
+                "The Old Stone House",
+                "Frederick Douglass National Historic Site"
+            ],
+            "image": "/images/jeff.jpg"
+        }
+    ],
+    "packages": [
+        {
+            "title": "History Buff Tour",
+            "description": "Explore the most significant historical sites in Washington, D.C.",
+            "image": "/images/war_memorial.jpg",
+            "price": "180",
+            "duration": "1 day"
+        },
+        {
+            "title": "Civil Rights Movement Tour",
+            "description": "Follow the footsteps of key figures and moments in the Civil Rights Movement in Washington, D.C.",
+            "image": "/images/mlk_blossoms.jpg",
+            "price": "220",
+            "duration": "2 days"
+        },
+        {
+            "title": "Cultural Heritage Experience",
+            "description": "Immerse yourself in cultural workshops and activities.",
+            "image": "/images/mlk.jpg",
+            "price": "300",
+            "duration": "3 days"
+        },
+        {
+            "title": "Historical Sites Package",
+            "description": "A comprehensive tour of historical sites and landmarks.",
+            "image": "/images/whitehouse.jpg",
+            "price": "250",
+            "duration": "3 days"
+        },
+        {
+            "title": "Washington D.C. Revolution Tour",
+            "description": "Dive into the history of the American Revolution in D.C.",
+            "image": "/images/rev_far.jpg",
+            "price": "220",
+            "duration": "1 day"
+        },
+        {
+            "title": "Legends of D.C. Night Tour",
+            "description": "Explore the haunted and historical tales of Washington D.C. at night.",
+            "image": "/images/monument_sunset.jpg",
+            "price": "150",
+            "duration": "1 evening"
+        }
+    ]
+}

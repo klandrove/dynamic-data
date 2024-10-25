@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Bona Nova SC";
+    src: url("/path/to/fonts/BonaNovaSC-Regular.woff2") format("woff2"),
+         url("/path/to/fonts/BonaNovaSC-Regular.woff") format("woff");
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bona Nova SC";
+    src: url("/path/to/fonts/BonaNovaSC-Bold.woff2") format("woff2"),
+         url("/path/to/fonts/BonaNovaSC-Bold.woff") format("woff");
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("/path/to/fonts/Poppins-Regular.woff2") format("woff2"),
+         url("/path/to/fonts/Poppins-Regular.woff") format("woff");
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("/path/to/fonts/Poppins-Medium.woff2") format("woff2"),
+         url("/path/to/fonts/Poppins-Medium.woff") format("woff");
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("/path/to/fonts/Poppins-Bold.woff2") format("woff2"),
+         url("/path/to/fonts/Poppins-Bold.woff") format("woff");
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+.grad-bg{
+    background-image: linear-gradient(to right, rgb(255, 185, 185), white, rgb(154, 183, 255));
+}
+
+.card-img-top {
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+.nav-height{
+    height: 15vh;
+}
+
+.nav-text{
+    font: 1.2em sans-serif;
+}
+
+.primary-heading{
+    padding-top: 18vh;
+}
+
+.img-fluid{
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    margin-top: 2vh;
+}
+
+.modalImage{
+    height: 70vh;
+}
+
+.galleryItem img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+  }
+
+.galleryItem img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0.9; 
+}
+
+.slideshow-img{
+    margin-top: 2vh;
+    height: 70vh;
+    margin-left: -1vw;
+}
+
+.navbar-brand{
+    font-family: "Bona Nova SC", serif;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.nav-item{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-family: "Poppins";
+    font-weight: 700; /* Bold */
+}
+
+p {
+    font-family: "Poppins";
+    font-weight: 400; /* Regular */
+}
+
+h2 {
+    font-family: "Poppins";
+    font-weight: 500; /* Medium */
+}
+
+.accordion-button:not(.collapsed){
+    background-color: rgb(154, 183, 255);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.abstract{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+.card-text{
+    height: 3em;
+}

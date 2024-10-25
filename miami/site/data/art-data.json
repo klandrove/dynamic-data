@@ -1,0 +1,100 @@
+{
+    "title": "Experience the Arts and Culture",
+    "abstract": "Discover the artistic heartbeat of Washington, D.C., where creativity and expression thrive in every corner. The city is home to an array of renowned museums, galleries, and public art installations that celebrate diverse artistic traditions. From the masterpieces housed in the National Gallery of Art to the contemporary works featured in local galleries, there’s something for every art lover to enjoy. Engage with local artists, participate in workshops, and explore the ever-evolving art scene that makes D.C. a dynamic cultural destination. Whether you’re an aficionado or just curious, the world of art awaits you.",
+    "image": "/images/washington_dc_art.jpg",
+    "slideshow": [
+        "/images/statue_cap.jpg",
+        "/images/mlk_blossoms.jpg",
+        "/images/theater_dark.jpg"
+    ],
+    "services": [
+        {
+            "title": "Art and Culture Tours",
+            "intro": "Engage with the local arts community and see remarkable exhibitions.",
+            "list": [
+                "Gallery Tours",
+                "Theater Shows",
+                "Cultural Events",
+                "Live Music Venues"
+            ],
+            "image": "/images/art_museum.jpg"
+        },
+        {
+            "title": "Photography Workshops",
+            "intro": "Capture the beauty of Washington DC with our workshops.",
+            "list": [
+                "Landscape Photography",
+                "Portrait Sessions",
+                "Night Photography",
+                "Street Photography"
+            ],
+            "image": "/images/camera_lens.jpg"
+        },
+        {
+            "title": "Dining Experiences",
+            "intro": "Savor the diverse culinary offerings in the city.",
+            "list": [
+                "Fine Dining",
+                "Food Trucks",
+                "Culinary Classes",
+                "Wine Tastings"
+            ],
+            "image": "/images/food_truck.jpg"
+        },
+        {
+            "title": "Local Events",
+            "intro": "Experience unique events throughout the city.",
+            "list": [
+                "Festivals",
+                "Concerts",
+                "Markets",
+                "Parades"
+            ],
+            "image": "/images/market.jpg"
+        }
+    ],
+    "packages": [
+        {
+            "title": "Cultural Immersion Package",
+            "description": "Explore the rich arts scene with curated visits to galleries.",
+            "image": "/images/statue.jpg",
+            "price": "250",
+            "duration": "2 days"
+        },
+        {
+            "title": "Art & Wine Weekend",
+            "description": "Enjoy art tours and wine tastings in the city.",
+            "image": "/images/wine.jpg",
+            "price": "350",
+            "duration": "3 days"
+        },
+        {
+            "title": "Family Arts Adventure",
+            "description": "Engaging arts activities for the entire family.",
+            "image": "/images//kid_museum.jpg",
+            "price": "300",
+            "duration": "4 days"
+        },
+        {
+            "title": "Theater Night Package",
+            "description": "Enjoy a night out with a show and dinner.",
+            "image": "/images/theater.jpg",
+            "price": "150",
+            "duration": "1 day"
+        },
+        {
+            "title": "Photography Experience",
+            "description": "Capture the city’s beauty with expert guidance.",
+            "image": "/images/photographer.jpg",
+            "price": "200",
+            "duration": "2 days"
+        },
+        {
+            "title": "Washington DC Music Festival",
+            "description": "Join the city's annual music festival with performances across genres.",
+            "image": "/images/concert.jpg",
+            "price": "100",
+            "duration": "1 day"
+        }
+    ]
+}

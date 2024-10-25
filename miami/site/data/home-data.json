@@ -1,0 +1,100 @@
+{
+    "title": "Welcome to Washington, D.C.",
+    "abstract": "Welcome to our vibrant and diverse hub, where the rich history of Washington, D.C. meets modern-day culture and adventure. Explore the city’s iconic landmarks, from the majestic Capitol Building to the inspiring Lincoln Memorial. Immerse yourself in the art and culture of the nation’s capital, with world-class museums, galleries, and theaters at every turn. Whether you’re a local looking to rediscover your city or a visitor experiencing D.C. for the first time, our curated experiences and personalized services will guide you on an unforgettable journey through the heart of this extraordinary city.",
+    "slideshow": [
+        "/images/pool.jpg",
+        "/images/arial.jpg",
+        "/images/cap.jpg"
+    ],
+    "services": [
+        {
+            "title": "Guided City Tours",
+            "intro": "Discover the city's history and culture with our expert-guided tours.",
+            "list": [
+                "Monuments & Memorials Tour",
+                "Smithsonian Experience",
+                "Historical Walking Tours",
+                "Culinary Tours"
+            ],
+            "image":"/images/arial_monument.jpg"
+        },
+        {
+            "title": "Museum Passes",
+            "intro": "Skip the lines at the city’s best museums.",
+            "list": [
+                "National Gallery of Art",
+                "Smithsonian National Air and Space Museum",
+                "United States Holocaust Memorial Museum",
+                "National Museum of African American History"
+            ],
+            "image":"/images/space_museum.jpg"
+        },
+        {
+            "title": "Private Transportation",
+            "intro": "Enjoy hassle-free travel with our private car services.",
+            "list": [
+                "Airport Transfers",
+                "City Explorations",
+                "Luxury Rentals",
+                "Shuttle Services"
+            ],
+            "image":"/images/night_road.jpg"
+        },
+        {
+            "title": "Concierge Service",
+            "intro": "Get personalized recommendations for dining and events.",
+            "list": [
+                "Dining Reservations",
+                "Event Planning",
+                "Local Recommendations",
+                "Ticket Bookings"
+            ],
+            "image":"/images/concierge.jpg"
+        }
+        
+    ],
+    "packages":[
+        {
+            "title": "Monuments & Memorials Tour",
+            "description": "A 3-day guided tour of Washington DC’s most iconic monuments.",
+            "image": "/images/lincoln.jpg",
+            "price": "300",
+            "duration": "3 days"
+        },
+        {
+            "title": "Capitol Hill Insider Tour",
+            "description": "Get exclusive access to Washington D.C.'s political heart with this guided Capitol Hill tour.",
+            "image": "/images/cap_face.jpg",
+            "price": "220",
+            "duration": "2 days"
+        },
+        {
+            "title": "Culinary Tour",
+            "description": "Explore the best restaurants and food markets.",
+            "image": "/images/dinner.jpg",
+            "price": "250",
+            "duration": "3 days"
+        },
+        {
+            "title": "Family Fun Package",
+            "description": "A family-friendly itinerary with activities for all ages.",
+            "image": "/images/family_car.jpg",
+            "price": "400",
+            "duration": "4 days"
+        },
+        {
+            "title": "Luxury Weekend Getaway",
+            "description": "A 2-night stay at a 5-star hotel with private tours.",
+            "image": "/images/lux_hotel.jpg",
+            "price": "600",
+            "duration": "2 days"
+        },
+        {
+            "title": "Historical DC Tour",
+            "description": "A deep dive into Washington DC’s history, visiting landmarks.",
+            "image": "/images/reflection_cap.jpg",
+            "price": "350",
+            "duration": "3 days"
+        }
+    ]
+}

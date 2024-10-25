@@ -1,0 +1,93 @@
+{
+    "title": "Adventure Awaits in D.C.",
+    "abstract": "Get ready for an action-packed experience in Washington, D.C.! From outdoor activities in the city's beautiful parks to thrilling excursions that showcase the region's natural beauty, there’s no shortage of adventures to embark on. Whether you prefer hiking the scenic trails of Rock Creek Park, biking along the National Mall, or exploring the Potomac River by kayak, D.C. offers endless opportunities for exploration and excitement. Join us as we guide you through unforgettable adventures that will leave you with lasting memories of this extraordinary city.",
+    "image": "/images/washington_dc_outdoors.jpg",
+    "slideshow": [
+        "/images/aquarium.jpg",
+        "/images/arial.jpg",
+        "/images/fall.jpg"
+    ],
+    "services": [
+        {
+            "title": "Outdoor Adventures",
+            "intro": "Experience the natural beauty of the city with guided outdoor activities.",
+            "list": [
+                "Kayaking on the Potomac",
+                "Biking along the National Mall",
+                "Hiking in Rock Creek Park",
+                "Guided Nature Walks"
+            ],
+            "image": "/images/cycling.jpg"
+        },
+        {
+            "title": "Sports Events",
+            "intro": "Catch a game at one of the city's major sports venues.",
+            "list": [
+                "Washington Nationals (MLB)",
+                "Washington Wizards (NBA)",
+                "Washington Capitals (NHL)",
+                "DC United (MLS)"
+            ],
+            "image": "/images/baseball.jpg"
+        },
+        {
+            "title": "Nature Tours",
+            "intro": "Explore the flora and fauna of the D.C. area.",
+            "list": [
+                "Bird Watching Tours",
+                "Botanical Garden Tours",
+                "Eco Tours",
+                "Wildlife Viewing"
+            ],
+            "image": "/images/bird.jpg"
+        },
+        {
+            "title": "Adventure Packages",
+            "intro": "Exciting packages that include multiple activities.",
+            "list": [
+                "Kayaking and Biking",
+                "Hiking and Camping",
+                "Fishing and Boat Tours",
+                "Cycling and Food Tours"
+            ],
+            "image": "/images/bike_tour.jpg"
+        }
+    ],
+    "packages": [
+        {
+            "title": "Kayak and Bike Adventure",
+            "description": "Combine kayaking and biking for a day of fun.",
+            "image": "/images/bike_kayak.jpg",
+            "price": "180",
+            "duration": "1 day"
+        },
+        {
+            "title": "Rock Creek Park Hiking Tour",
+            "description": "Experience the beauty of Rock Creek Park with guided hikes.",
+            "image": "/images/creek.jpg",
+            "price": "120",
+            "duration": "1 day"
+        },
+        {
+            "title": "DC Sports Fan Package",
+            "description": "Enjoy a day of sports with tickets and dining.",
+            "image": "/images/basketball.jpg",
+            "price": "250",
+            "duration": "1 day"
+        },
+        {
+            "title": "Outdoor Family Adventure",
+            "description": "A package filled with fun outdoor activities for the family.",
+            "image": "/images/outdoor_family.jpg",
+            "price": "400",
+            "duration": "2 days"
+        },
+        {
+            "title": "Fishing Trip on the Potomac",
+            "description": "Enjoy a guided fishing trip on the beautiful Potomac River.",
+            "image": "/images/fishing.jpg",
+            "price": "220",
+            "duration": "1 day"
+        }
+    ]
+}

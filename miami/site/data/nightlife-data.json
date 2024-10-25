@@ -1,0 +1,100 @@
+{
+        "title": "Nightlife and Entertainment in Washington, D.C.",
+        "abstract": "As the sun sets, Washington, D.C. transforms into a vibrant nightlife destination, offering a wide array of entertainment options for everyone. Experience the electric atmosphere of bustling bars, lively clubs, and intimate lounges, each with its own unique vibe. Enjoy live music performances, dance the night away, or savor expertly crafted cocktails in some of the city’s trendiest spots. Whether you’re looking for a laid-back evening or a night of adventure, D.C.'s nightlife scene has something to suit your taste. Join us as we explore the best places to unwind and enjoy the city after dark.",
+        "image": "/images/washington_dc_nightlife.jpg",
+        "slideshow": [
+            "/images/cap_night.jpg",
+            "/images/metro.jpg",
+            "/images/jeff.jpg"
+        ],
+        "services": [
+            {
+                "title": "Live Music Venues",
+                "intro": "Enjoy live performances across the city in iconic venues.",
+                "list": [
+                    "The Anthem",
+                    "9:30 Club",
+                    "Blues Alley",
+                    "The Hamilton Live"
+                ],
+                "image": "/images/live_music.jpg"
+            },
+            {
+                "title": "Theater and Performances",
+                "intro": "Catch world-class performances at D.C.'s best theaters.",
+                "list": [
+                    "Kennedy Center",
+                    "Ford's Theatre",
+                    "Arena Stage",
+                    "Shakespeare Theatre Company"
+                ],
+                "image": "/images/kennedy.jpg"
+            },
+            {
+                "title": "Rooftop Bars and Lounges",
+                "intro": "Sip cocktails with a view at D.C.'s rooftop bars.",
+                "list": [
+                    "Top of the Gate",
+                    "Columbia Room",
+                    "12 Stories",
+                    "Perry's Rooftop Bar"
+                ],
+                "image": "/images/rooftop_bar.jpg"
+            },
+            {
+                "title": "Night Tours and Attractions",
+                "intro": "Explore D.C. after dark with these exciting tours.",
+                "list": [
+                    "Monuments by Moonlight Tour",
+                    "Ghost Tours of Georgetown",
+                    "Nighttime River Cruise",
+                    "Evening Bike Tours"
+                ],
+                "image": "/images/cap_night.jpg"
+            }
+        ],
+        "packages": [
+            {
+                "title": "Nightlife Experience Package",
+                "description": "A curated night of live music, cocktails, and nightlife hotspots.",
+                "image": "/images/cocktail.jpg",
+                "price": "250",
+                "duration": "1 night"
+            },
+            {
+                "title": "Theater Night Out",
+                "description": "Enjoy a night at the theater with premium seats and dinner.",
+                "image": "/images/theater_dark.jpg",
+                "price": "180",
+                "duration": "1 evening"
+            },
+            {
+                "title": "Rooftop Bar Tour",
+                "description": "Visit D.C.'s best rooftop bars and enjoy breathtaking views.",
+                "image": "/images/bar_tour.jpg",
+                "price": "200",
+                "duration": "1 night"
+            },
+            {
+                "title": "Monuments by Moonlight",
+                "description": "Explore the city’s most famous monuments under the stars.",
+                "image": "/images/monument_night.jpg",
+                "price": "150",
+                "duration": "1 evening"
+            },
+            {
+                "title": "Late-Night River Cruise",
+                "description": "Take a scenic river cruise while enjoying live entertainment.",
+                "image": "/images/river_cruise.jpg",
+                "price": "220",
+                "duration": "1 night"
+            },
+            {
+                "title": "D.C. Jazz Night",
+                "description": "Spend the evening in one of D.C.'s iconic jazz clubs.",
+                "image": "/images/jazz.jpg",
+                "price": "120",
+                "duration": "1 evening"
+            }
+        ]
+    }

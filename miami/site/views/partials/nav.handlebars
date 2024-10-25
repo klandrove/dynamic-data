@@ -1,0 +1,43 @@
+{{!-- Begin Navigation --}}
+    <nav class="navbar fixed-top navbar-expand-lg grad-bg nav-height">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">{{siteName}}</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav nav-text">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/history">History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/art">Art</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/nightlife">Nightlife</a>
+                    </li>  
+                    <li class="nav-item">
+                        <a class="nav-link" href="/adventure">Adventure</a>
+                    </li>                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    {{!-- End Navigation --}}
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const currentLocation = window.location.pathname;
+        const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+        navLinks.forEach(link => {
+            if (link.getAttribute('href') === currentLocation) {
+                link.classList.add('active');
+                link.setAttribute('aria-current', 'page');
+            }
+        });
+    });
+</script>
