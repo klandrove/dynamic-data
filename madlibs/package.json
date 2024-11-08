@@ -1,0 +1,18 @@
+{
+  "name": "madlibs",
+  "version": "1.0.0",
+  "description": "a form handling fun tutorial",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mad"
+  ],
+  "author": "Kaitlyn Landrove",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1"
+  }
+}
