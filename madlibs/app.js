@@ -6,13 +6,21 @@ const expressHandlebars = require('express-handlebars')
 
 const app = express()
 
+// add body-parser to process POST data from forms
+const bodyParser = require('body-parser')
+
+// Body-parser needs to be initialized
+app.use(bodyParser.urlencoded({ extended: true}))
+
 app.use(express.static('public'))
 
+const handler = require('./lib/handler')
 
 app.engine('handlebars', expressHandlebars.engine({
     defaultLayout: 'main'
 }))
 app.set('view engine','handlebars')
+
 
 const PORT = process.env.port || 3000
 app.get("/", (request,response)=>{
@@ -32,6 +40,19 @@ app.post('/process',(request,response)=>{
 app.get('/process',(request,response)=>{
     console.log(request.query)
 })
+
+app.get('/newsletter-signup', handler.newsletterSignup)
+
+app.post('/newsletter-signup/process', handler.newsletterSignupProcess)
+
+app.get('/newsletter/list', handler.newsletterSignupList)
+
+app.get('/newsletter/thankyou', (request,response)=>{
+    response.render('thankyou')
+})
+
+app.get('/newsletter/details/:email', handler.newsletterUser)
+app.get('/newsletter/delete/:email', handler.newsletterUserDelete)
 
 // Error handling -> app.use() basic express route
 app.use((request,response)=>{

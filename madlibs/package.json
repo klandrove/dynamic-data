@@ -12,6 +12,7 @@
   "author": "Kaitlyn Landrove",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.20.3",
     "express": "^4.21.1",
     "express-handlebars": "^8.0.1"
   }
