@@ -1,4 +1,6 @@
 {
+    "category": "Furniture",
+    "banner": "/images/furniture/wc2.jpg",
     "products": [
         {
             "id": 1,

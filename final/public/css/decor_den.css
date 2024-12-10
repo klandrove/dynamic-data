@@ -2,11 +2,30 @@ body{
     background-color: #fffaf8;
 }
 
-.beige{
+.brown{
     background-color: #352319;
 }
 
-.nav-link, .navbar-brand{
+.nav-link{
+    color: #fffaf8;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.nav-item {
+    margin-left: 1vw;
+}
+
+.nav-link:hover{
+    color: #eae1cf;
+}
+
+.navbar-nav .nav-link.active{
+    color: #eae1cf;
+    text-decoration: solid underline #eae1cf;
+}
+
+.navbar-brand:hover{
     color: #fffaf8;
 }
 
@@ -23,28 +42,50 @@ body{
     font: 1.2em sans-serif;
 }
 
-.primary-heading{
-    padding-top: 18vh;
-}
-
 .img-fluid{
     aspect-ratio: 4/3;
     object-fit: cover;
     margin-top: 2vh;
 }
 
-.modalImage{
-    height: 70vh;
-}
 
 .galleryItem img {
     transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
   }
 
 .galleryItem img:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     opacity: 0.9; 
+}
+
+.galleryItem a{
+    text-decoration: none;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin-top: 0.5vh;
+}
+
+.add-to-cart{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    background-color: #352319;
+    color: #fffaf8;
+    border: none;
+}
+
+.add-to-cart:hover{
+    background-color: #eae1cf;
+    color: #352319;
+}
+
+.cart-checkout{
+    display: flex;
+}
+
+.checkout{
+    scale: 1.2;
 }
 
 .slideshow-img{
@@ -54,14 +95,10 @@ body{
 }
 
 .navbar-brand{
-    font-family: "Bona Nova SC", serif;
+    font-family: "Playfair Display", serif;
     font-size: 1.8em;
     font-weight: 700;
-}
-
-.nav-item{
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    color: #fffaf8;
 }
 
 body {
@@ -69,41 +106,66 @@ body {
 }
 
 h1 {
-    font-family: "Poppins";
-    font-weight: 700; /* Bold */
+    font-family: "Playfair Display", serif;
+    font-size: 4em;
+    font-weight: 500;
+    color: black;
 }
 
-p {
-    font-family: "Poppins";
-    font-weight: 400; /* Regular */
+.primary-heading{
+    padding-top: 18vh;
 }
 
-h2 {
-    font-family: "Poppins";
-    font-weight: 500; /* Medium */
+p, label, li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
 }
 
-.accordion-button:not(.collapsed){
-    background-color: rgb(154, 183, 255);
+label{
+    padding-top: 1vh;
 }
 
-.accordion-button:focus {
-    box-shadow: none;
+h2{
+    font-family: "Playfair Display", serif;
+    font-size: 2.4em;
+    font-weight: 500;
+    color: black;
+}
+
+h3{
+    font-family: "Playfair Display", serif;
+    font-size: 2em;
+    font-weight: 500;
+    color: black;
+}
+
+a{
+    text-decoration: underline;
+    color: #352319;
+}
+
+.card .card-title , .card p, .card a{
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: #000000;
 }
 
 .abstract{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 1.2em;
+    margin-bottom: 2vh;
 }
-.card-text{
-    height: 3em;
+
+hr{
+    border: 1px solid #352319;
 }
 
 .short-height {
     margin-top: 15vh;
-    height: 65vh; /* Adjust this value to your desired height */
-    object-fit: cover; /* Ensures the image maintains its aspect ratio and fills the height */
+    height: 65vh;
+    object-fit: cover; 
 }
 
 .gallery-margin{
@@ -124,7 +186,7 @@ h2 {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fffaf8;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", serif;
     font-weight: 700;
     font-size: 6em;
     text-align: center;
@@ -161,6 +223,27 @@ h2 {
     margin: auto;
 }
 
-.cart-header{
+.cart-header, .checkout-header, .thank-header, .error-header, .about-header{
     margin-top: 18vh;
+}
+
+.cart-button{
+    background-color: #fffaf8;
+    color: #352319;
+}
+
+.cart-button:hover{
+    background-color: #eae1cf;
+    color: #352319;
+}
+
+.cart-page-button{
+    background-color: #352319;
+    color: #fffaf8;
+    border: none;
+}
+
+.cart-page-button:hover{
+    background-color: #eae1cf;
+    color: #352319;
 }

@@ -22,12 +22,17 @@
         <h2>{{data.currentProduct.name}}</h2>
         <p>${{data.currentProduct.price}}</p>
         <p>{{data.currentProduct.description}}</p>
-        {{>addcart}}
+        {{> addcart 
+            id=data.currentProduct.id 
+            name=data.currentProduct.name 
+            description=data.currentProduct.description 
+            price=data.currentProduct.price 
+            image=data.currentProduct.image}}
     </div>
 </div>
 <div>
     <hr>
-    <h3>Shop Similar</h3>
+    <h3>Shop Similar Products</h3>
     {{>suggested_products}}
 </div>
 

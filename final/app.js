@@ -10,6 +10,10 @@ const app = express()
 
 app.use(express.static('public'))
 
+app.use(express.urlencoded({ extended: true }))
+
+const fs = require('fs');
+
 const expressHandlebars = require('express-handlebars')
 
 app.engine('handlebars', expressHandlebars.engine({
@@ -25,10 +29,10 @@ app.get("/", (req,res)=>{
     res.render('homepage',{data})
 })
 
-app.get("/about", (req,res)=>{
+app.get("/about", (req, res) => {
     const data = require('./data/about.json')
-    res.render('page',{data})
-})
+    res.render('about', data)
+});
 
 app.get("/table_decor", (req,res)=>{
     const data = require('./data/table_decor.json')
@@ -47,10 +51,6 @@ app.get("/kitchenware", (req,res)=>{
 
 
 // details page
-
-// if I want to name my categories different things: 
-// app.get("/category/:category/details/:id", (req,res)=>{
-
 app.get("/category/:category/details/:id", (req,res)=>{
     const cat = req.params.category;
     const data = require(`./data/${cat}.json`)
@@ -62,8 +62,6 @@ app.get("/category/:category/details/:id", (req,res)=>{
         let index = (currentProductIndex + i) % data.products.length;
         suggestedProducts.push(data.products[index]);
     }
-    console.log(currentProduct)
-    console.log(suggestedProducts)
     res.render('details', {
         "data": {
             currentProduct: currentProduct,
@@ -74,14 +72,77 @@ app.get("/category/:category/details/:id", (req,res)=>{
 
 let cart = {"products":[]}
 
+let total = 0
+
 app.get("/cart",(req,res) =>{
     if(typeof(req.query.id) != "undefined") {
         cart.products.push(req.query)
     } else {
     }
 
-    res.render("cart",{"products":cart.products})
+    total = cart.products.reduce((sum, product) => sum + parseFloat(product.price), 0);
+
+    res.render('cart',{"products":cart.products, "total":total})
 })
+
+app.post("/cart/delete", (req, res) => {
+    const productId = req.body.id
+    cart.products = cart.products.filter(product => product.id !== productId)
+    res.redirect('/cart')
+});
+
+app.get("/checkout", (req,res)=>{
+    res.render('checkout', {
+        data: {
+            products: cart.products,
+            total: total
+        }
+    });
+})
+
+app.post('/checkout/complete', (req, res) => {
+    const { name, address, email, phone } = req.body;
+
+    const order = {
+        id: Date.now(),
+        customer: {
+            name: name,
+            address: address,
+            email: email,
+            phone: phone
+        },
+        products: cart.products,
+        total: total,
+        date: new Date().toISOString()
+    };
+    fs.readFile('./data/orders.json', 'utf8', (err, data) => {
+        if (err) {
+            data = '[]';
+        }
+        const orders = JSON.parse(data);
+        orders.push(order);
+
+        fs.writeFile('./data/orders.json', JSON.stringify(orders, null, 2), 'utf8', (err) => {
+            if (err) {
+                console.error('Error saving the order:', err);
+                return res.status(500).send('Error saving your order.');
+            }
+
+            
+            cart.products = [];
+
+            res.render('thankyou', {
+                name: order.customer.name,
+                email: order.customer.email,
+                products: order.products,
+                total: order.total
+            });
+            
+        });
+    });
+});
+
+
 
 // Error handling -> app.use() basic express route
 app.use((request,response)=>{

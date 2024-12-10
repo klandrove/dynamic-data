@@ -1,0 +1,12 @@
+<h1 class="thank-header">Thank you for your order, {{name}}!</h1>
+<p>Your order has been successfully placed. We will send a confirmation email to {{email}} shortly.</p>
+<h3>Order Summary</h3>
+<ul>
+    {{#each products}}
+    <li>
+        {{this.name}} - ${{this.price}}
+    </li>
+    {{/each}}
+</ul>
+<hr>
+<h3>Total: ${{total}}</h3>

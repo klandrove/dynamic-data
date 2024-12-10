@@ -1,8 +1,8 @@
-<form action="/cart">
-<input type="hidden" name="id" value="{{this.id}}">
-<input type="hidden" name="name" value="{{this.name}}">
-<input type="hidden" name="description" value="{{this.description}}">
-<input type="hidden" name="price" value="{{this.price}}">
-<input type="hidden" name="image" value="{{this.image}}">
-<button type="submit">ADD TO CART</button>
+<form action="/cart" method="GET">
+    <input type="hidden" name="id" value="{{id}}">
+    <input type="hidden" name="name" value="{{name}}">
+    <input type="hidden" name="description" value="{{description}}">
+    <input type="hidden" name="price" value="{{price}}">
+    <input type="hidden" name="image" value="{{image}}">
+    <button type="submit" class="btn btn-primary add-to-cart">ADD TO CART</button>
 </form>

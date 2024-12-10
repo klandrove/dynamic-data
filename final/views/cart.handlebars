@@ -1,17 +1,35 @@
 <h1 class="cart-header">Cart</h1>
+{{#if total}}
+<h3>I like your style!</h3>
 <div>
 {{#each products}}
     <div class="row cart-row align-items-center">
         <div class="col-3 mb-4">
             <img src="{{this.image}}" class="img-fluid rounded" alt="{{this.name}}">
         </div>
-        <div class="col-9 mb-4">
+        <div class="col-6 mb-4">
             <h3>{{this.name}}</h3>
             <p>{{this.description}}</p>
             <p>${{this.price}}</p>
         </div>
+        <div class="col-3">
+            {{>delete}}
+        </div>
     </div>  
     <hr>
 {{/each}}
-</div>
+<br>
+<div class="cart-checkout">
 
+    <div class="col-9">
+        <h3>Total: ${{total}}</h3>        
+    </div>
+    <div class="col-3">
+        <a href="/checkout" class="btn btn-primary cart-page-button checkout">Checkout</a>
+    </div>
+</div>
+{{else}}
+    <h3>Your cart is empty</h3>
+    <a href="/" class="btn btn-primary cart-page-button">Shop Now!</a>
+{{/if}}
+</div>

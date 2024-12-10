@@ -1,0 +1,18 @@
+{
+    "title": "About Us",
+    "header": "Welcome to Our Store!",
+    "description": "At Decor Den, we specialize in bringing you the best in home decor. Whether you're looking for stylish furniture, unique table decor, or kitchenware that combines function and style, we have something for every taste and budget. Our products are carefully curated to ensure top quality and are sourced from trusted suppliers worldwide.",
+    "mission": "Our mission is to help you create a living space that reflects your personal style while making your home a more comfortable and beautiful place to be. We believe in the power of design to transform spaces and are committed to offering home decor solutions that are both functional and aesthetically pleasing.",
+    "values": [
+      "Quality craftsmanship",
+      "Sustainability and eco-friendly materials",
+      "Affordable pricing",
+      "Excellent customer service"
+    ],
+    "contact_info": {
+      "phone": "+1 800-555-1234",
+      "email": "info@decorden.com",
+      "address": "123 Home Decor Lane, Suite 100, Cityville, State, 12345"
+    }
+  }
+  

@@ -1,0 +1,19 @@
+<h1 class="about-header">{{header}}</h1>
+<p>{{description}}</p>
+<hr>
+<h3>Our Mission</h3>
+<p>{{mission}}</p>
+<hr>
+<h3>What We Value</h3>
+<ul>
+    {{#each values}}
+    <li>{{this}}</li>
+    {{/each}}
+</ul>
+<hr>
+<h3>We'd love to hear from you!</h3>
+<address>
+    <a href="mailto:{{contact_info.email}}">{{contact_info.email}}</a><br />
+    <a href="tel:{{contact_info.phone}}">{{contact_info.phone}}</a><br />
+    {{contact_info.address}}<br />
+</address>
