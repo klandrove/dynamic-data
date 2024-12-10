@@ -7,7 +7,7 @@
             "category": "kitchenware",
             "name": "Silver Mugs",
             "description": "A set of elegant silver mugs, perfect for any occasion.",
-            "price": 1800,
+            "price": 50,
             "image": "/images/kitchenware/sm1.jpg",
             "gallery": [
                 "/images/kitchenware/sm1.jpg",
@@ -21,7 +21,7 @@
             "category": "kitchenware",
             "name": "Sugar Jar",
             "description": "A stylish sugar jar with a secure lid, ideal for storing sugar.",
-            "price": 1200,
+            "price": 20,
             "image": "/images/kitchenware/sj1.jpg",
             "gallery": [
                 "/images/kitchenware/sj1.jpg",
@@ -35,7 +35,7 @@
             "category": "kitchenware",
             "name": "Bubble Glass",
             "description": "A unique bubble glass cup, adding character to your drinkware.",
-            "price": 900,
+            "price": 15,
             "image": "/images/kitchenware/bg1.jpg",
             "gallery": [
                 "/images/kitchenware/bg1.jpg",
@@ -49,7 +49,7 @@
             "category": "kitchenware",
             "name": "Cream Mug",
             "description": "A creamy-white mug with a minimalist design.",
-            "price": 800,
+            "price": 15,
             "image": "/images/kitchenware/cm1.jpg",
             "gallery": [
                 "/images/kitchenware/cm1.jpg",
@@ -63,7 +63,7 @@
             "category": "kitchenware",
             "name": "Glass Cup",
             "description": "A sleek glass cup, perfect for hot or cold beverages.",
-            "price": 1000,
+            "price": 10,
             "image": "/images/kitchenware/gc1.jpg",
             "gallery": [
                 "/images/kitchenware/gc1.jpg",
@@ -77,7 +77,7 @@
             "category": "kitchenware",
             "name": "Cookie Jar",
             "description": "A charming jar for storing your favorite cookies.",
-            "price": 1500,
+            "price": 20,
             "image": "/images/kitchenware/cj1.jpg",
             "gallery": [
                 "/images/kitchenware/cj1.jpg",
@@ -91,7 +91,7 @@
             "category": "kitchenware",
             "name": "Assorted Jars",
             "description": "A set of assorted jars for versatile kitchen storage.",
-            "price": 2200,
+            "price": 50,
             "image": "/images/kitchenware/aj1.jpg",
             "gallery": [
                 "/images/kitchenware/aj1.jpg",
@@ -105,7 +105,7 @@
             "category": "kitchenware",
             "name": "Utensil Holder",
             "description": "A practical utensil holder to keep your kitchen organized.",
-            "price": 1400,
+            "price": 25,
             "image": "/images/kitchenware/uh1.jpg",
             "gallery": [
                 "/images/kitchenware/uh1.jpg",
@@ -119,7 +119,7 @@
             "category": "kitchenware",
             "name": "Honey Jar",
             "description": "A delightful honey jar with a dipper, perfect for tea time.",
-            "price": 1300,
+            "price": 20,
             "image": "/images/kitchenware/hj1.jpg",
             "gallery": [
                 "/images/kitchenware/hj1.jpg",
@@ -133,7 +133,7 @@
             "category": "kitchenware",
             "name": "Cake Stand",
             "description": "A beautiful cake stand for displaying your baked goods.",
-            "price": 2500,
+            "price": 35,
             "image": "/images/kitchenware/cs1.jpg",
             "gallery": [
                 "/images/kitchenware/cs1.jpg",
@@ -147,7 +147,7 @@
             "category": "kitchenware",
             "name": "Mug Set",
             "description": "A stylish set of mugs, perfect for coffee or tea.",
-            "price": 1800,
+            "price": 30,
             "image": "/images/kitchenware/ms1.jpg",
             "gallery": [
                 "/images/kitchenware/ms1.jpg",
@@ -161,7 +161,7 @@
             "category": "kitchenware",
             "name": "Teapot",
             "description": "An elegant teapot for brewing and serving tea.",
-            "price": 2000,
+            "price": 35,
             "image": "/images/kitchenware/tp1.jpg",
             "gallery": [
                 "/images/kitchenware/tp1.jpg",

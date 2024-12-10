@@ -25,8 +25,8 @@ body{
     text-decoration: solid underline #eae1cf;
 }
 
-.navbar-brand:hover{
-    color: #fffaf8;
+.navbar-brand:hover, .navbar-brand:active{
+    color: #fffaf8  !important;
 }
 
 .card-img-top {
@@ -75,9 +75,9 @@ body{
     border: none;
 }
 
-.add-to-cart:hover{
-    background-color: #eae1cf;
-    color: #352319;
+.add-to-cart:hover, .add-to-cart:active{
+    background-color: #eae1cf !important;
+    color: #352319 !important;
 }
 
 .cart-checkout{
@@ -96,7 +96,7 @@ body{
 
 .navbar-brand{
     font-family: "Playfair Display", serif;
-    font-size: 1.8em;
+    font-size: 2em;
     font-weight: 700;
     color: #fffaf8;
 }
@@ -232,9 +232,9 @@ hr{
     color: #352319;
 }
 
-.cart-button:hover{
-    background-color: #eae1cf;
-    color: #352319;
+.cart-button:hover, .cart-button:active{
+    background-color: #eae1cf !important;
+    color: #352319 !important;
 }
 
 .cart-page-button{
@@ -243,7 +243,7 @@ hr{
     border: none;
 }
 
-.cart-page-button:hover{
-    background-color: #eae1cf;
-    color: #352319;
+.cart-page-button:hover, .cart-page-button:active{
+    background-color: #eae1cf !important;
+    color: #352319 !important;
 }

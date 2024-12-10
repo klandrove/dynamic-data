@@ -24,14 +24,14 @@
         {
             "id": 3,
             "name": "Candle Holder",
-            "price": 20.00,
+            "price": 40.00,
             "image": "/images/table/ch1.jpg",
             "category": "table_decor"
         },
         {
             "id": 4,
             "name": "Wood Tray",
-            "price": 50.00,
+            "price": 20.00,
             "image": "/images/table/wt1.jpg",
             "category": "table_decor"
         }
