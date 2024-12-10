@@ -1,0 +1,11 @@
+<div class="row gallery">
+    {{#each data.products}} <!-- Loop through products -->
+    <div class="col-3 galleryItem text-center mb-4">
+        <img class="img-fluid" src="{{this.image}}" alt="{{this.name}}">
+        <h5 class="mt-2">{{this.name}}</h5> <!-- Product name -->
+        <p>${{this.price}}</p> <!-- Product price -->
+        {{>addcart}}
+        <a href="/category/{{this.category}}/details/{{this.id}}">View product details</a> <br>
+    </div>
+    {{/each}}
+</div>

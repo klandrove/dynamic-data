@@ -1,0 +1,52 @@
+{
+    "title": "Welcome to Decor Den",
+    "abstract": "Transform your home into a haven with Decor Den. Explore curated collections of stunning home decor pieces that blend style and function. Let us help you create a space you love.",
+    "slideshow": [
+        "/images/kitchenware/tp3.jpg",
+        "/images/table/stl3.jpg",
+        "/images/kitchenware/sj2.jpg"
+    ],
+    "featured_products": [
+        {
+            "id": 1,
+            "name": "Silver Lamp",
+            "price": 85.00,
+            "image": "/images/table/sl1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Stone Vase",
+            "price": 45.00,
+            "image": "/images/table/sv1.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Candle Holder",
+            "price": 20.00,
+            "image": "/images/table/ch1.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Wood Tray",
+            "price": 50.00,
+            "image": "/images/table/wt1.jpg"
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Table Decor",
+            "image": "/images/table/sl3.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Furniture",
+            "image": "/images/furniture/bt1.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Kitchenware",
+            "image": "/images/kitchenware/sj3.jpg"
+        }
+    ]
+}

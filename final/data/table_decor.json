@@ -1,0 +1,174 @@
+{
+    "category": "Table Decor",
+    "banner": "/images/table/stl3.jpg",
+    "products": [
+        {
+            "id": 1,
+            "category": "table_decor",
+            "name": "Silver Lamp",
+            "description": "A sleek and elegant silver lamp, perfect for modern table decor.",
+            "price": 2000,
+            "image": "/images/table/sl1.jpg",
+            "gallery": [
+                "/images/table/sl1.jpg",
+                "/images/table/sl2.jpg",
+                "/images/table/sl3.jpg",
+                "/images/table/sl4.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "category": "table_decor",
+            "name": "Stone Vase",
+            "description": "A minimalist stone vase, ideal for contemporary or rustic settings.",
+            "price": 1500,
+            "image": "/images/table/sv1.jpg",
+            "gallery": [
+                "/images/table/sv1.jpg",
+                "/images/table/sv2.jpg",
+                "/images/table/sv3.jpg",
+                "/images/table/sv4.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "category": "table_decor",
+            "name": "Stone Lamp",
+            "description": "A unique stone lamp with natural textures, adding warmth to your space.",
+            "price": 1800,
+            "image": "/images/table/stl1.jpg",
+            "gallery": [
+                "/images/table/stl1.jpg",
+                "/images/table/stl2.jpg",
+                "/images/table/stl3.jpg",
+                "/images/table/stl4.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "category": "table_decor",
+            "name": "Votive",
+            "description": "A simple yet elegant votive holder for candles, ideal for a cozy ambiance.",
+            "price": 1200,
+            "image": "/images/table/v1.jpg",
+            "gallery": [
+                "/images/table/v1.jpg",
+                "/images/table/v2.jpg",
+                "/images/table/v3.jpg",
+                "/images/table/v4.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "category": "table_decor",
+            "name": "Silver Tray",
+            "description": "A sophisticated silver tray, perfect for serving or as a decorative accent.",
+            "price": 2200,
+            "image": "/images/table/st1.jpg",
+            "gallery": [
+                "/images/table/st1.jpg",
+                "/images/table/st2.jpg",
+                "/images/table/st3.jpg",
+                "/images/table/st4.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "category": "table_decor",
+            "name": "Skinny Lamp",
+            "description": "A slim and stylish skinny lamp, perfect for minimalist decor.",
+            "price": 2500,
+            "image": "/images/table/sk1.jpg",
+            "gallery": [
+                "/images/table/sk1.jpg",
+                "/images/table/sk2.jpg",
+                "/images/table/sk3.jpg",
+                "/images/table/sk4.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "category": "table_decor",
+            "name": "Candle",
+            "description": "A premium candle with a calming scent, ideal for relaxing evenings.",
+            "price": 1700,
+            "image": "/images/table/c1.jpg",
+            "gallery": [
+                "/images/table/c1.jpg",
+                "/images/table/c2.jpg",
+                "/images/table/c3.jpg",
+                "/images/table/c4.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "category": "table_decor",
+            "name": "Wood Tray",
+            "description": "A rustic wood tray, perfect for organizing or as a centerpiece.",
+            "price": 2600,
+            "image": "/images/table/wt1.jpg",
+            "gallery": [
+                "/images/table/wt1.jpg",
+                "/images/table/wt2.jpg",
+                "/images/table/wt3.jpg",
+                "/images/table/wt4.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "category": "table_decor",
+            "name": "White Candle",
+            "description": "A classic white candle, perfect for adding a warm glow to your table.",
+            "price": 1100,
+            "image": "/images/table/wc1.jpg",
+            "gallery": [
+                "/images/table/wc1.jpg",
+                "/images/table/wc2.jpg",
+                "/images/table/wc3.jpg",
+                "/images/table/wc4.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "category": "table_decor",
+            "name": "Stone Tray",
+            "description": "A beautifully crafted stone tray, ideal for a natural and refined look.",
+            "price": 3000,
+            "image": "/images/table/stt1.jpg",
+            "gallery": [
+                "/images/table/stt1.jpg",
+                "/images/table/stt2.jpg",
+                "/images/table/stt3.jpg",
+                "/images/table/stt4.jpg"
+            ]
+        },
+        {
+            "id": 11,
+            "category": "table_decor",
+            "name": "Candle Holder",
+            "description": "An elegant candle holder, perfect for enhancing your candle decor.",
+            "price": 1900,
+            "image": "/images/table/ch1.jpg",
+            "gallery": [
+                "/images/table/ch1.jpg",
+                "/images/table/ch2.jpg",
+                "/images/table/ch3.jpg",
+                "/images/table/ch4.jpg"
+            ]
+        },
+        {
+            "id": 12,
+            "category": "table_decor",
+            "name": "Trinket Dish",
+            "description": "A charming trinket dish, perfect for holding small treasures or jewelry.",
+            "price": 2400,
+            "image": "/images/table/td1.jpg",
+            "gallery": [
+                "/images/table/td1.jpg",
+                "/images/table/td2.jpg",
+                "/images/table/td3.jpg",
+                "/images/table/td4.jpg"
+            ]
+        }
+    ]
+}

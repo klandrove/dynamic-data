@@ -1,0 +1,166 @@
+body{
+    background-color: #fffaf8;
+}
+
+.beige{
+    background-color: #352319;
+}
+
+.nav-link, .navbar-brand{
+    color: #fffaf8;
+}
+
+.card-img-top {
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+.nav-height{
+    height: 15vh;
+}
+
+.nav-text{
+    font: 1.2em sans-serif;
+}
+
+.primary-heading{
+    padding-top: 18vh;
+}
+
+.img-fluid{
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    margin-top: 2vh;
+}
+
+.modalImage{
+    height: 70vh;
+}
+
+.galleryItem img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+  }
+
+.galleryItem img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0.9; 
+}
+
+.slideshow-img{
+    margin-top: 2vh;
+    height: 70vh;
+    margin-left: -1vw;
+}
+
+.navbar-brand{
+    font-family: "Bona Nova SC", serif;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.nav-item{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-family: "Poppins";
+    font-weight: 700; /* Bold */
+}
+
+p {
+    font-family: "Poppins";
+    font-weight: 400; /* Regular */
+}
+
+h2 {
+    font-family: "Poppins";
+    font-weight: 500; /* Medium */
+}
+
+.accordion-button:not(.collapsed){
+    background-color: rgb(154, 183, 255);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.abstract{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+.card-text{
+    height: 3em;
+}
+
+.short-height {
+    margin-top: 15vh;
+    height: 65vh; /* Adjust this value to your desired height */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio and fills the height */
+}
+
+.gallery-margin{
+    margin-top: 2vh;
+}
+
+.banner-container {
+    position: relative;
+}
+
+.half-of-flex{
+    width:50%;
+}
+
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fffaf8;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 6em;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #352319;
+}
+
+.details-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18vh;
+}
+
+.product-details{
+    margin-top: 18vh;
+}
+
+#mainImage{
+    height: 55vh;
+    aspect-ratio: 5/6;
+    object-fit: cover;
+}
+
+.big-row{
+    max-width: 30vw;
+}
+
+.details-bot-images{
+    max-width: 10vw;
+}
+
+.suggested-product{
+    width: 50vw;
+    margin: auto;
+}
+
+.cart-header{
+    margin-top: 18vh;
+}

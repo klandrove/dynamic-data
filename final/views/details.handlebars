@@ -1,0 +1,43 @@
+<div class="details-flex">
+    <div class="container half-of-flex">
+    <!-- Large Image -->
+        <div class="row big-row">
+            <div class="col-12 text-center mb-4">
+                <img id="mainImage" src="{{data.currentProduct.image}}" class="img-fluid rounded" alt="Main Image">
+            </div>
+        </div>
+        <div class="row big-row justify-content-center">
+            <div class="col-8">
+                <div class="row owl-theme owl-carousel owl-packages">
+                {{#each data.currentProduct.gallery}}
+                    <div>
+                        <img onclick="changeImage(this)" src="{{this}}" class="img-fluid border rounded cursor-pointer details-bot-images" alt="Image 1">
+                    </div>
+                {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-details half-of-flex">
+        <h2>{{data.currentProduct.name}}</h2>
+        <p>${{data.currentProduct.price}}</p>
+        <p>{{data.currentProduct.description}}</p>
+        {{>addcart}}
+    </div>
+</div>
+<div>
+    <hr>
+    <h3>Shop Similar</h3>
+    {{>suggested_products}}
+</div>
+
+
+
+<script>
+    // JavaScript to change the main image
+    function changeImage(element) {
+        const mainImage = document.getElementById("mainImage");
+        mainImage.src = element.src;
+        mainImage.alt = element.alt;
+    }
+</script>

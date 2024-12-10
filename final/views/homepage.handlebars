@@ -1,0 +1,16 @@
+{{>heading}}
+{{#if data.featured_products}}
+    {{>featured_products}}
+{{/if}}
+{{#if data.categories}}
+    <div class="row gallery">
+    {{#each data.categories}} <!-- Loop through products -->
+    <div class="col-4 galleryItem text-center mb-4">
+        <a href="/{{this.name}}"> 
+            <img class="img-fluid" src="{{this.image}}" alt="{{this.name}}">
+            <h5 class="mt-2">{{this.name}}</h5> 
+        </a>
+    </div>
+    {{/each}}
+</div>
+{{/if}}

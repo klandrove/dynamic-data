@@ -1,0 +1,17 @@
+<h1 class="cart-header">Cart</h1>
+<div>
+{{#each products}}
+    <div class="row cart-row align-items-center">
+        <div class="col-3 mb-4">
+            <img src="{{this.image}}" class="img-fluid rounded" alt="{{this.name}}">
+        </div>
+        <div class="col-9 mb-4">
+            <h3>{{this.name}}</h3>
+            <p>{{this.description}}</p>
+            <p>${{this.price}}</p>
+        </div>
+    </div>  
+    <hr>
+{{/each}}
+</div>
+

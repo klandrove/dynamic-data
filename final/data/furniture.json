@@ -1,0 +1,172 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "category": "furniture",
+            "name": "Clear Chair",
+            "description": "A modern and minimalist clear chair, perfect for contemporary spaces.",
+            "price": 3500,
+            "image": "/images/furniture/cc1.jpg",
+            "gallery": [
+                "/images/furniture/cc1.jpg",
+                "/images/furniture/cc2.jpg",
+                "/images/furniture/cc3.jpg",
+                "/images/furniture/cc4.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "category": "furniture",
+            "name": "Grey Couch",
+            "description": "A stylish grey couch with plush cushions for ultimate comfort.",
+            "price": 12000,
+            "image": "/images/furniture/gc1.jpg",
+            "gallery": [
+                "/images/furniture/gc1.jpg",
+                "/images/furniture/gc2.jpg",
+                "/images/furniture/gc3.jpg",
+                "/images/furniture/gc4.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "category": "furniture",
+            "name": "Wood Table",
+            "description": "A sturdy and elegant wood table, ideal for dining or workspaces.",
+            "price": 8000,
+            "image": "/images/furniture/wt1.jpg",
+            "gallery": [
+                "/images/furniture/wt1.jpg",
+                "/images/furniture/wt2.jpg",
+                "/images/furniture/wt3.jpg",
+                "/images/furniture/wt4.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "category": "furniture",
+            "name": "Wood Side Table",
+            "description": "A compact wood side table, perfect for holding lamps or decor.",
+            "price": 4000,
+            "image": "/images/furniture/wst1.jpg",
+            "gallery": [
+                "/images/furniture/wst1.jpg",
+                "/images/furniture/wst2.jpg",
+                "/images/furniture/wst3.jpg",
+                "/images/furniture/wst4.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "category": "furniture",
+            "name": "White Chair",
+            "description": "A sleek white chair, great for modern dining rooms or offices.",
+            "price": 3000,
+            "image": "/images/furniture/wc1.jpg",
+            "gallery": [
+                "/images/furniture/wc1.jpg",
+                "/images/furniture/wc2.jpg",
+                "/images/furniture/wc3.jpg",
+                "/images/furniture/wc4.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "category": "furniture",
+            "name": "Silver Side Table",
+            "description": "A sophisticated silver side table with a shiny finish.",
+            "price": 4500,
+            "image": "/images/furniture/sst1.jpg",
+            "gallery": [
+                "/images/furniture/sst1.jpg",
+                "/images/furniture/sst2.jpg",
+                "/images/furniture/sst3.jpg",
+                "/images/furniture/sst4.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "category": "furniture",
+            "name": "Wood Chair",
+            "description": "A comfortable wood chair with a natural finish, suitable for any room.",
+            "price": 3200,
+            "image": "/images/furniture/woc1.jpg",
+            "gallery": [
+                "/images/furniture/woc1.jpg",
+                "/images/furniture/woc2.jpg",
+                "/images/furniture/woc3.jpg",
+                "/images/furniture/woc4.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "category": "furniture",
+            "name": "Leather Chair",
+            "description": "A luxurious leather chair with a contemporary design.",
+            "price": 9000,
+            "image": "/images/furniture/lc1.jpg",
+            "gallery": [
+                "/images/furniture/lc1.jpg",
+                "/images/furniture/lc2.jpg",
+                "/images/furniture/lc3.jpg",
+                "/images/furniture/lc4.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "category": "furniture",
+            "name": "Block Table",
+            "description": "A bold block-style table, ideal as a statement piece.",
+            "price": 7500,
+            "image": "/images/furniture/bt1.jpg",
+            "gallery": [
+                "/images/furniture/bt1.jpg",
+                "/images/furniture/bt2.jpg",
+                "/images/furniture/bt3.jpg",
+                "/images/furniture/bt4.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "category": "furniture",
+            "name": "Leather Loveseat",
+            "description": "A cozy leather loveseat, perfect for small spaces.",
+            "price": 10000,
+            "image": "/images/furniture/ll1.jpg",
+            "gallery": [
+                "/images/furniture/ll1.jpg",
+                "/images/furniture/ll2.jpg",
+                "/images/furniture/ll3.jpg",
+                "/images/furniture/ll4.jpg"
+            ]
+        },
+        {
+            "id": 11,
+            "category": "furniture",
+            "name": "Suede Chair",
+            "description": "A soft suede chair for added comfort and elegance.",
+            "price": 6000,
+            "image": "/images/furniture/sc1.jpg",
+            "gallery": [
+                "/images/furniture/sc1.jpg",
+                "/images/furniture/sc2.jpg",
+                "/images/furniture/sc3.jpg",
+                "/images/furniture/sc4.jpg"
+            ]
+        },
+        {
+            "id": 12,
+            "category": "furniture",
+            "name": "Black Couch",
+            "description": "A sleek black couch with a modern design for contemporary spaces.",
+            "price": 15000,
+            "image": "/images/furniture/bc1.jpg",
+            "gallery": [
+                "/images/furniture/bc1.jpg",
+                "/images/furniture/bc2.jpg",
+                "/images/furniture/bc3.jpg",
+                "/images/furniture/bc4.jpg"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,172 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "category": "kitchenware",
+            "name": "Silver Mugs",
+            "description": "A set of elegant silver mugs, perfect for any occasion.",
+            "price": 1800,
+            "image": "/images/kitchenware/sm1.jpg",
+            "gallery": [
+                "/images/kitchenware/sm1.jpg",
+                "/images/kitchenware/sm2.jpg",
+                "/images/kitchenware/sm3.jpg",
+                "/images/kitchenware/sm4.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "category": "kitchenware",
+            "name": "Sugar Jar",
+            "description": "A stylish sugar jar with a secure lid, ideal for storing sugar.",
+            "price": 1200,
+            "image": "/images/kitchenware/sj1.jpg",
+            "gallery": [
+                "/images/kitchenware/sj1.jpg",
+                "/images/kitchenware/sj2.jpg",
+                "/images/kitchenware/sj3.jpg",
+                "/images/kitchenware/sj4.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "category": "kitchenware",
+            "name": "Bubble Glass",
+            "description": "A unique bubble glass cup, adding character to your drinkware.",
+            "price": 900,
+            "image": "/images/kitchenware/bg1.jpg",
+            "gallery": [
+                "/images/kitchenware/bg1.jpg",
+                "/images/kitchenware/bg2.jpg",
+                "/images/kitchenware/bg3.jpg",
+                "/images/kitchenware/bg4.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "category": "kitchenware",
+            "name": "Cream Mug",
+            "description": "A creamy-white mug with a minimalist design.",
+            "price": 800,
+            "image": "/images/kitchenware/cm1.jpg",
+            "gallery": [
+                "/images/kitchenware/cm1.jpg",
+                "/images/kitchenware/cm2.jpg",
+                "/images/kitchenware/cm3.jpg",
+                "/images/kitchenware/cm4.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "category": "kitchenware",
+            "name": "Glass Cup",
+            "description": "A sleek glass cup, perfect for hot or cold beverages.",
+            "price": 1000,
+            "image": "/images/kitchenware/gc1.jpg",
+            "gallery": [
+                "/images/kitchenware/gc1.jpg",
+                "/images/kitchenware/gc2.jpg",
+                "/images/kitchenware/gc3.jpg",
+                "/images/kitchenware/gc4.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "category": "kitchenware",
+            "name": "Cookie Jar",
+            "description": "A charming jar for storing your favorite cookies.",
+            "price": 1500,
+            "image": "/images/kitchenware/cj1.jpg",
+            "gallery": [
+                "/images/kitchenware/cj1.jpg",
+                "/images/kitchenware/cj2.jpg",
+                "/images/kitchenware/cj3.jpg",
+                "/images/kitchenware/cj4.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "category": "kitchenware",
+            "name": "Assorted Jars",
+            "description": "A set of assorted jars for versatile kitchen storage.",
+            "price": 2200,
+            "image": "/images/kitchenware/aj1.jpg",
+            "gallery": [
+                "/images/kitchenware/aj1.jpg",
+                "/images/kitchenware/aj2.jpg",
+                "/images/kitchenware/aj3.jpg",
+                "/images/kitchenware/aj4.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "category": "kitchenware",
+            "name": "Utensil Holder",
+            "description": "A practical utensil holder to keep your kitchen organized.",
+            "price": 1400,
+            "image": "/images/kitchenware/uh1.jpg",
+            "gallery": [
+                "/images/kitchenware/uh1.jpg",
+                "/images/kitchenware/uh2.jpg",
+                "/images/kitchenware/uh3.jpg",
+                "/images/kitchenware/uh4.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "category": "kitchenware",
+            "name": "Honey Jar",
+            "description": "A delightful honey jar with a dipper, perfect for tea time.",
+            "price": 1300,
+            "image": "/images/kitchenware/hj1.jpg",
+            "gallery": [
+                "/images/kitchenware/hj1.jpg",
+                "/images/kitchenware/hj2.jpg",
+                "/images/kitchenware/hj3.jpg",
+                "/images/kitchenware/hj4.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "category": "kitchenware",
+            "name": "Cake Stand",
+            "description": "A beautiful cake stand for displaying your baked goods.",
+            "price": 2500,
+            "image": "/images/kitchenware/cs1.jpg",
+            "gallery": [
+                "/images/kitchenware/cs1.jpg",
+                "/images/kitchenware/cs2.jpg",
+                "/images/kitchenware/cs3.jpg",
+                "/images/kitchenware/cs4.jpg"
+            ]
+        },
+        {
+            "id": 11,
+            "category": "kitchenware",
+            "name": "Mug Set",
+            "description": "A stylish set of mugs, perfect for coffee or tea.",
+            "price": 1800,
+            "image": "/images/kitchenware/ms1.jpg",
+            "gallery": [
+                "/images/kitchenware/ms1.jpg",
+                "/images/kitchenware/ms2.jpg",
+                "/images/kitchenware/ms3.jpg",
+                "/images/kitchenware/ms4.jpg"
+            ]
+        },
+        {
+            "id": 12,
+            "category": "kitchenware",
+            "name": "Teapot",
+            "description": "An elegant teapot for brewing and serving tea.",
+            "price": 2000,
+            "image": "/images/kitchenware/tp1.jpg",
+            "gallery": [
+                "/images/kitchenware/tp1.jpg",
+                "/images/kitchenware/tp2.jpg",
+                "/images/kitchenware/tp3.jpg",
+                "/images/kitchenware/tp4.jpg"
+            ]
+        }
+    ]
+}

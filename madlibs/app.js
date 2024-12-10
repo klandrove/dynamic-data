@@ -22,7 +22,7 @@ app.engine('handlebars', expressHandlebars.engine({
 app.set('view engine','handlebars')
 
 
-const PORT = process.env.port || 3000
+const PORT = process.env.port || 8080
 app.get("/", (request,response)=>{
     response.render('page',{request})
 })

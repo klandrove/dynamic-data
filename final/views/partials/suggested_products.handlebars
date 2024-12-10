@@ -1,0 +1,15 @@
+<div class="row owl-theme owl-carousel owl-packages suggested-product">
+{{#each data.suggestedProducts}}
+    <div class="card">
+        <a href="/category/{{this.category}}/details/{{this.id}}">
+            <img src="{{this.image}}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{this.name}}</h5>
+            </div>
+        </a>
+    </div>
+{{/each}}
+</div>
+<div>
+    <br>
+</div>

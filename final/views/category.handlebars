@@ -1,0 +1,24 @@
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100 short-height" src="{{data.banner}}" alt="{{data.category}}">
+            <div class="banner-text position-absolute">
+                {{data.category}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row gallery gallery-margin">
+    {{#each data.products}} <!-- Loop through products -->
+    <div class="col-3 galleryItem text-center mb-4">
+        <a href="/category/{{this.category}}/details/{{this.id}}">
+            <img class="img-fluid" src="{{this.image}}" alt="{{this.name}}">
+            <h5 class="mt-2">{{this.name}}</h5> <!-- Product name -->
+        </a>
+        <p>${{this.price}}</p> <!-- Product price -->
+        {{>addcart}}
+        {{!-- <a href="/category/{{this.category}}/details/{{this.id}}">View product details</a> <br> --}}
+    </div>
+    {{/each}}
+</div>
