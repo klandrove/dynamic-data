@@ -1,41 +1,40 @@
-{{!-- Begin Navigation --}}
-    <nav class="navbar fixed-top navbar-expand-lg brown nav-height">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/">{{siteName}}</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav nav-text">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/table_decor">Table Decor</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/furniture">Furniture</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/kitchenware">Kitchenware</a>
-                    </li>  
-                    <li class="nav-item">
-                        <a class="nav-link" href="/about">About Us</a>
-                    </li>                    
-                </ul>
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/cart">
-                            <button class="btn cart-button">CART</button>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+<nav class="navbar fixed-top navbar-expand-lg brown nav-height">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">{{siteName}}</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav nav-text">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/table_decor">Table Decor</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/furniture">Furniture</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/kitchenware">Kitchenware</a>
+                </li>  
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About Us</a>
+                </li>                    
+            </ul>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/cart">
+                        <button class="btn cart-button">CART</button>
+                    </a>
+                </li>
+            </ul>
         </div>
-    </nav>
-    {{!-- End Navigation --}}
+    </div>
+</nav>
 
-    <script>
+
+<script>
     document.addEventListener('DOMContentLoaded', function () {
         const currentLocation = window.location.pathname;
         const navLinks = document.querySelectorAll('.navbar-nav .nav-link');

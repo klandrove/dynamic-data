@@ -9,7 +9,7 @@
 {{#if data.categories}}
     <h2>Shop By Category</h2>
     <div class="row gallery">
-    {{#each data.categories}} <!-- Loop through products -->
+    {{#each data.categories}}
         <div class="col-4 galleryItem text-center mb-4">
             <a href="/{{this.category}}"> 
                 <img class="img-fluid" src="{{this.image}}" alt="{{this.name}}">

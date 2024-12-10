@@ -10,15 +10,14 @@
 </div>
 
 <div class="row gallery gallery-margin">
-    {{#each data.products}} <!-- Loop through products -->
+    {{#each data.products}}
     <div class="col-3 galleryItem text-center mb-4">
         <a href="/category/{{this.category}}/details/{{this.id}}">
             <img class="img-fluid" src="{{this.image}}" alt="{{this.name}}">
-            <h5 class="mt-2">{{this.name}}</h5> <!-- Product name -->
+            <h5 class="mt-2">{{this.name}}</h5>
         </a>
-        <p>${{this.price}}</p> <!-- Product price -->
+        <p>${{this.price}}</p>
         {{>addcart}}
-        {{!-- <a href="/category/{{this.category}}/details/{{this.id}}">View product details</a> <br> --}}
     </div>
     {{/each}}
 </div>
